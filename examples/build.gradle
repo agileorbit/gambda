@@ -1,0 +1,23 @@
+apply plugin: 'groovy'
+
+group 'com.agileorbit.lambda.example'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(':gambda')
+
+    testCompile "org.spockframework:spock-core:1.0-groovy-2.4"
+}
+
+task buildZip(type: Zip) {
+    from compileGroovy
+    from processResources
+    into('lib') {
+        from configurations.runtime
+    }
+}
+
+build.dependsOn buildZip
