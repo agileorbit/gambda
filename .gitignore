@@ -1,0 +1,11 @@
+*.iml
+*.ipr
+*.iws
+*.log
+.asscache
+.DS_Store
+.gradle
+.idea
+Thumbs.db
+/build
+.pid.lock
