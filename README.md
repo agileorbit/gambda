@@ -1,5 +1,5 @@
 # Gambda
 
-[![License](http://img.shields.io/:license-apache 2.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Groovy mini-framework for building AWS Lambda functions.
